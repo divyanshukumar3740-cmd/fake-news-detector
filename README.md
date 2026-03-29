@@ -8,9 +8,9 @@ Misinformation and fake news have become a major social problem in the digital a
 
 ## Dataset
 
-* Name: WELFake Dataset
+* Name: WELFake Dataset (sample)
 * Source: Kaggle
-* Size: 72,134 news articles
+* Size: 10,000 articles
 * Labels: 0 = Real, 1 = Fake
 
 ## Tech Stack
@@ -35,15 +35,13 @@ Step 2 - Install dependencies
 
 pip install pandas numpy matplotlib seaborn scikit-learn jupyter
 
-Step 3 - Download the dataset from Kaggle and place WELFake\_Dataset.csv in the data folder
-
 https://www.kaggle.com/datasets/clmentbisaillon/fake-and-real-news-dataset
 
-Step 4 - Train the model
+Step 3 - Train the model
 
 python main.py --train
 
-Step 5 - Predict on a news headline
+Step 4 - Predict on a news headline
 
 python main.py --predict "your news headline here"
 
