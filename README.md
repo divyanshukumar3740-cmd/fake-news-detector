@@ -51,10 +51,10 @@ python main.py --predict "Scientists discover coffee makes you immortal!"
 
 ## Results
 
-* Accuracy: 94.36%
-* Precision for Real News: 0.95
-* Precision for Fake News: 0.94
-* F1-Score: 0.94
+* Accuracy: 90.9%
+* Precision for Real News: 0.92
+* Precision for Fake News: 0.90
+* F1-Score: 0.91
 
 ## How It Works
 
