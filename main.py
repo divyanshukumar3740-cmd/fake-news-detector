@@ -7,7 +7,7 @@ from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.linear_model import LogisticRegression
 from sklearn.metrics import accuracy_score, classification_report
 
-DATA_PATH = 'data/WELFake_Dataset.csv'
+DATA_PATH = 'data/sample_dataset.csv'
 MODEL_PATH = 'model.pkl'
 TFIDF_PATH = 'tfidf.pkl'
 
