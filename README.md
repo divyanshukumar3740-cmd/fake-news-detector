@@ -33,9 +33,7 @@ cd fake-news-detector
 
 Step 2 - Install dependencies
 
-pip install pandas numpy matplotlib seaborn scikit-learn jupyter
-
-https://www.kaggle.com/datasets/clmentbisaillon/fake-and-real-news-dataset
+pip install -r requirements.txt
 
 Step 3 - Train the model
 
